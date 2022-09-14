@@ -187,7 +187,9 @@ https://templatemo.com/tm-516-known
     width: 100%;
     height: 390px;
   }
-
+.decor li{
+  text-decoration: none;
+}
 
 
   /*---------------------------------------
@@ -288,7 +290,9 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .navbar-nav.navbar-nav-first {
-    margin-left: 35em;
+    /* margin-left: 37em; */
+    /* display: flex;
+    justify-content: space-between; */
   }
 
   .custom-navbar .navbar-nav.navbar-right li a {
@@ -796,7 +800,7 @@ https://templatemo.com/tm-516-known
   }
 
   .footer_menu h2 {
-    margin-top: 2em;
+    /* margin-top: 2em; */
   }
 
   .footer_menu ul {
@@ -807,7 +811,7 @@ https://templatemo.com/tm-516-known
   .footer_menu li {
     display: inline-block;
     list-style: none;
-    margin: 5px 10px 5px 0;
+    margin: 0 10px 5px 0;
   }
 
   .newsletter-form .form-control {
@@ -888,8 +892,23 @@ https://templatemo.com/tm-516-known
 
   @media screen and (max-width: 1440px) {
     .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: inherit;
+      margin-left: 38em;
     }
+    .form-control{
+      height: 50px;
+      margin: 5px 0 5px 0;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .custom-navbar .navbar-nav.navbar-nav-first {
+      margin-left: 24em;
+      /* display: flex;
+      justify-content: space-between; */
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .custom-navbar .navbar-nav.navbar-nav-first {
+      margin-left: 8em;
   }
 
   @media only screen and (max-width: 768px) {
@@ -911,6 +930,9 @@ https://templatemo.com/tm-516-known
 
     .contact-image {
       margin-top: 50px;
+    }
+    .custom-navbar .navbar-nav.navbar-nav-first {
+      margin-left: 11em;
     }
   }
 
@@ -979,7 +1001,7 @@ https://templatemo.com/tm-516-known
   }
 
 
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 426px) {
     h2 {
       font-size: 1.8em;
     }
@@ -991,6 +1013,15 @@ https://templatemo.com/tm-516-known
     .contact-image {
       margin-top: 0;
     }
+    .search1{
+      width: 100px;
+      border: #000000;
+      border-radius: 1px;
+    }
+    .form-control{
+      margin-left: 5px;
+    }
+    
   }
 
   @media only screen and (max-width: 425px) {
@@ -1052,3 +1083,6 @@ https://templatemo.com/tm-516-known
 
   .list { font-size: 16px; line-height: 1.6; }
   .list li { margin-bottom: 15px;  }
+  .whtspc{
+    margin: 0 10 0 10;
+  }
