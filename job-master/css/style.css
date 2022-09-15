@@ -285,7 +285,17 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
   
   .text-primary { color: #29ca8e; }
-
+.image1{
+  height: 4.3em;
+  padding: 0px;
+}
+.navbar-brand{
+  /* height: 150px; */
+  padding: 4px;
+  text-align: center;
+  float: none;
+  /* font-size: 25px; */
+}
   .custom-navbar {
     background: #ffffff;
     border-top: 9px solid #132e24;
@@ -300,15 +310,17 @@ https://templatemo.com/tm-516-known
 
   .custom-navbar .navbar-brand {
     color: #454545;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     line-height: 40px;
   }
 
   .custom-navbar .navbar-nav.navbar-nav-first {
-    margin-left: 47em;
+    margin-left: 44em;
     /* display: flex;
     justify-content: space-between; */
+    vertical-align: middle;
+    /* height: 150px; */
   }
 
   .custom-navbar .navbar-nav.navbar-right li a {
@@ -909,7 +921,7 @@ https://templatemo.com/tm-516-known
 
   @media screen and (max-width: 1440px) {
     .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: 47em;
+      margin-left: 44em;
     }
     .form-control{
       height: 50px;
@@ -918,14 +930,14 @@ https://templatemo.com/tm-516-known
   }
   @media screen and (max-width: 1200px) {
     .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: 32em;
+      margin-left: 30em;
       /* display: flex;
       justify-content: space-between; */
     }
   }
   @media screen and (max-width: 991px) {
     .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: 17em;
+      margin-left: 14em;
   }
 
   @media only screen and (max-width: 768px) {
@@ -949,7 +961,7 @@ https://templatemo.com/tm-516-known
       margin-top: 50px;
     }
     .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: 23em;
+      margin-left: 21em;
     }
   }
 
