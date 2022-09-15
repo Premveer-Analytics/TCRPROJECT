@@ -190,7 +190,13 @@ https://templatemo.com/tm-516-known
 .decor li{
   text-decoration: none;
 }
-
+.text{
+  font-weight: 600;
+  font-size: larger;
+}
+.pad{
+  padding: 50px 0;
+}
 
   /*---------------------------------------
      BUTTONS               
@@ -211,7 +217,17 @@ https://templatemo.com/tm-516-known
     background: #ffffff;
     border-color: transparent;
   }
+  .section-btn.btn-primary { border-color: #29ca8e; color: #29ca8e; }
+  .section-btn.btn-primary:focus,
+  .section-btn.btn-primary:active,
+  .section-btn.btn-primary:focus:active,
+  .section-btn.btn-primary:hover {background: #29ca8e; color: #fff; border-color: #29ca8e; }
 
+  .courses-thumb .lead,
+  .team-info .lead { margin-bottom: 10px; }
+
+  .courses-thumb .lead strong,
+  .team-info .lead strong { color: #29ca8e;}
 
 
   /*---------------------------------------
@@ -290,7 +306,7 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .navbar-nav.navbar-nav-first {
-    margin-left: 37em;
+    margin-left: 47em;
     /* display: flex;
     justify-content: space-between; */
   }
@@ -407,7 +423,7 @@ https://templatemo.com/tm-516-known
   }
 
   .home-slider .item-third {
-    background-image: url(../images/slider-image-3-1920x700.jpg);
+    background-image: url(../images/slider-image-5-1920x700.jpg);
   }
 
 
@@ -893,7 +909,7 @@ https://templatemo.com/tm-516-known
 
   @media screen and (max-width: 1440px) {
     .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: 38em;
+      margin-left: 47em;
     }
     .form-control{
       height: 50px;
@@ -902,14 +918,14 @@ https://templatemo.com/tm-516-known
   }
   @media screen and (max-width: 1200px) {
     .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: 24em;
+      margin-left: 32em;
       /* display: flex;
       justify-content: space-between; */
     }
   }
   @media screen and (max-width: 991px) {
     .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: 8em;
+      margin-left: 17em;
   }
 
   @media only screen and (max-width: 768px) {
@@ -933,7 +949,7 @@ https://templatemo.com/tm-516-known
       margin-top: 50px;
     }
     .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: 11em;
+      margin-left: 23em;
     }
   }
 
